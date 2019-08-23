@@ -1,0 +1,25 @@
+<h1> Two-Way Data Binding </h1>
+
+<label for="nickname-input">
+   Nickname: 
+</label>
+<input type="text" id="nickname-input"
+   [(ngModel)]="nickname"
+>
+
+<br/>
+
+<b> Valor digitado: {{ nickname }} </b>
+
+<hr>
+
+<input type="text" id="person-name-input" placeholder="Enter your name here" [(ngModel)]="person.name">
+<br/>
+<input type="text" id="person-age-input" placeholder="Now, enter your age" [(ngModel)]="person.age">
+
+<p> So your name is {{ person.name || "_______" }} and you're {{ person.age || "__" }} years old, right? </p>
+
+<br/>
+<hr>
+<br/>
+
