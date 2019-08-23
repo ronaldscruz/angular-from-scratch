@@ -16,6 +16,7 @@ export class TopicHubComponent implements OnInit {
       "class-style-binding",
       "event-binding",
       "tw-data-binding",
+      "input-properties"
     ]
   }
 

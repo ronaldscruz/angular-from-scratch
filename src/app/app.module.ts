@@ -1,3 +1,4 @@
+import { InputPropertiesModule } from './input-properties/input-properties.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -22,13 +23,14 @@ import { FormsModule } from '@angular/forms';
     PropBindingComponent,
     ClassStyleBindingComponent,
     EventBindingComponent,
-    TwDataBindingComponent
+    TwDataBindingComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    InputPropertiesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
