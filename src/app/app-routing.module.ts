@@ -1,3 +1,4 @@
+import { OutputPropertiesComponent } from './output-properties/output-properties.component';
 import { InputPropertiesComponent } from './input-properties/input-properties.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { NgModule } from '@angular/core';
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: "class-style-binding", component: ClassStyleBindingComponent },
   { path: "event-binding", component: EventBindingComponent },
   { path: "tw-data-binding", component: TwDataBindingComponent },
-  { path: "input-properties", component: InputPropertiesComponent }
+  { path: "input-properties", component: InputPropertiesComponent },
+  { path: "output-properties", component: OutputPropertiesComponent }
 ];
 
 @NgModule({

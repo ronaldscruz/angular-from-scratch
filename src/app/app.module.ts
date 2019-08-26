@@ -14,6 +14,7 @@ import { ClassStyleBindingComponent } from './class-style-binding/class-style-bi
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TwDataBindingComponent } from './tw-data-binding/tw-data-binding.component';
 import { FormsModule } from '@angular/forms';
+import { OutputPropertiesComponent } from './output-properties/output-properties.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { FormsModule } from '@angular/forms';
     ClassStyleBindingComponent,
     EventBindingComponent,
     TwDataBindingComponent,
+    OutputPropertiesComponent
   ],
   imports: [
     BrowserModule,
