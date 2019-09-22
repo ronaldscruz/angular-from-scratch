@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'traversy-media';
+  birthday = new Date(2001, 1, 26);
+
+  constructor(){
+    
+  }
 }

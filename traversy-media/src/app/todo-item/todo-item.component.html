@@ -1,0 +1,14 @@
+<li class="g-todo" id="{{ todo.id || 0 }}">
+   <strong class="todo-name">
+      {{ todo.name || "No todo" }}
+   </strong>
+   <p class="todo-date">
+      Date: {{ todo.dateToComplete || "No date" }}
+   </p>
+   <p class="todo-completed">
+      Completed: 
+      <span class="todo-status"> 
+         {{ todo.completed || "No" }} 
+      </span> 
+   </p>
+</li>

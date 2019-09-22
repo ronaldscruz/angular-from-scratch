@@ -1,0 +1,13 @@
+<h1> Todos </h1>
+
+<!-- <ul>
+   <li *ngFor="let todo of todos"> {{ todo.id }} | {{ todo.name }} | {{ todo.completed }} </li>
+</ul> -->
+
+<!-- <ul>
+   <app-todo-item *ngFor="let todo of todos" (id)="todo.id" (name)="todo.name" (date)="todo.date" (completed)="todo.completed"  ></app-todo-item>
+</ul> -->
+
+<ul>
+   <app-todo-item *ngFor="let todo of todos" [todo]="todo" ></app-todo-item>
+</ul>
