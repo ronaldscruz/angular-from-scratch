@@ -1,0 +1,62 @@
+div.g-todo{
+   -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.60);
+   -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.60);
+   box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.60);
+   padding: 20px;
+   border-radius: 7px;
+   margin-bottom: 25px;
+   width: 400px;
+   cursor: pointer;
+
+   transition: all .2s ease;
+}
+
+div.g-todo:hover{
+   transform: scale(1.015);
+}
+
+div.completed-todo{
+   background-color: rgb(93, 202, 93);
+}
+
+div.todo-completed-wrapper{
+   display: flex;
+   flex: 1;
+   justify-content: right;
+   align-items: right;
+}
+
+::-moz-focus-inner{
+   border: 0;
+}
+
+button.mark-completed{
+   cursor: pointer;
+   height: 50px;
+   width: 50px;
+   border: 3px solid rgb(70, 158, 209);
+   border-radius: 50%;
+   background-color: rgba(70, 158, 209, 0);
+   color: rgb(70, 158, 209);
+   font-size: 28px;
+   font-weight: bold;
+
+   transition: all 0.2s ease;
+}
+
+button.button-completed{
+   background-color: rgb(70, 158, 209);
+   border: none;
+   color: #ffffff;
+}
+
+strong.todo-name{
+}
+
+strong.name-completed{
+   text-decoration: line-through;
+}
+
+p.todo-date{
+   
+}

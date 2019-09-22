@@ -16,7 +16,7 @@ export class TodosComponent implements OnInit {
     this.todos = [
       new Todo(1, "Walk the Dog"),
       new Todo(2, "Read 'Rich Dad Poor Dad'"),
-      new Todo(3, "Workout for at least 30 minutes")
+      new Todo(3, "Workout for at least 30 minutes", "2019-09-18",true)
     ]
   }
 

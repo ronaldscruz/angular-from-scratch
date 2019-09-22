@@ -13,7 +13,12 @@ export class TodoItemComponent implements OnInit {
   constructor() {
   }
 
-  ngOnInit() {
+  ngOnInit(){
+
+  }
+
+  toggleTodo(todo: Todo){
+    return this.todo.completed = !this.todo.completed;
   }
 
 }

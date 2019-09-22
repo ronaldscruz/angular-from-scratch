@@ -1,14 +1,13 @@
-<li class="g-todo" id="{{ todo.id || 0 }}">
-   <strong class="todo-name">
+<div class="g-todo" id="{{ todo.id || 0 }}" [ngClass]="{ 'completed-todo': todo.completed }" (click)="toggleTodo(todo)" >
+   <strong class="todo-name" [ngClass]="{ 'name-completed': todo.completed }">
       {{ todo.name || "No todo" }}
    </strong>
    <p class="todo-date">
-      Date: {{ todo.dateToComplete || "No date" }}
+      Date: {{ todo.dateToComplete || "Undefined date" }}
    </p>
-   <p class="todo-completed">
-      Completed: 
-      <span class="todo-status"> 
-         {{ todo.completed || "No" }} 
-      </span> 
-   </p>
-</li>
+   <div class="todo-completed-wrapper">
+      <button class="mark-completed" [ngClass]="{ 'button-completed': todo.completed }">
+            ✓
+      </button>
+   </div>
+</div>

@@ -8,7 +8,7 @@ export class Todo{
    constructor(
       id: number, 
       name: string, 
-      dateToComplete: string = "Undefined Date", 
+      dateToComplete: string = "Undefined date", 
       completed: boolean = false
       ){
          this.id = id;
