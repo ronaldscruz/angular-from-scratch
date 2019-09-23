@@ -1,14 +1,14 @@
 export class Todo{
-   
+
    id: number;
    name: string;
    dateToComplete: string;
    completed: boolean;
 
    constructor(
-      id: number, 
-      name: string, 
-      dateToComplete: string = "Undefined date", 
+      id: number,
+      name: string,
+      dateToComplete: string = 'Undefined date',
       completed: boolean = false
       ){
          this.id = id;

@@ -22,12 +22,15 @@ div.completed-todo{
 div.todo-completed-wrapper{
    display: flex;
    flex: 1;
-   justify-content: right;
-   align-items: right;
+   justify-content: flex-end;
 }
 
 ::-moz-focus-inner{
    border: 0;
+}
+
+button{
+   outline: none;
 }
 
 button.mark-completed{
