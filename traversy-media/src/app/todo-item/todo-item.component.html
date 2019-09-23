@@ -1,10 +1,7 @@
 <div class="g-todo" id="{{ todo.id || 0 }}" [ngClass]="{ 'completed-todo': todo.completed }" (click)="toggleTodo(todo)" >
    <strong class="todo-name" [ngClass]="{ 'name-completed': todo.completed }">
-      {{ todo.name || "No todo" }}
+      {{ todo.title || "No todo" }}
    </strong>
-   <p class="todo-date">
-      Date: {{ todo.dateToComplete || "Undefined date" }}
-   </p>
    <div class="todo-completed-wrapper">
       <button class="mark-completed" [ngClass]="{ 'button-completed': todo.completed }">
             ✓

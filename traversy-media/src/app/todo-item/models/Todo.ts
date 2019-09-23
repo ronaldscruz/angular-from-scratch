@@ -1,19 +1,16 @@
 export class Todo{
 
    id: number;
-   name: string;
-   dateToComplete: string;
+   title: string;
    completed: boolean;
 
    constructor(
       id: number,
-      name: string,
-      dateToComplete: string = 'Undefined date',
+      title: string,
       completed: boolean = false
       ){
          this.id = id;
-         this.name = name;
-         this.dateToComplete = dateToComplete;
+         this.title = title;
          this.completed = completed;
       }
 }
