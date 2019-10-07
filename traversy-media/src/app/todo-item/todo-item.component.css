@@ -5,7 +5,7 @@ div.g-todo{
    padding: 20px;
    border-radius: 7px;
    margin-bottom: 25px;
-   width: 400px;
+   width: 500px;
    cursor: pointer;
 
    transition: all .2s ease;
@@ -22,6 +22,7 @@ div.completed-todo{
 div.todo-completed-wrapper{
    display: flex;
    flex: 1;
+   margin-top: 20px;
    justify-content: flex-end;
 }
 

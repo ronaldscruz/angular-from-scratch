@@ -21,7 +21,7 @@ export class TodosComponent implements OnInit {
 
   getTodos(){
     this.todoService.getTodos().subscribe(
-      data => {this.todos = data; console.log(data)},
+      data => {this.todos = data},
       err => console.log(err),
       () => console.log('> done loading todos')
     )
