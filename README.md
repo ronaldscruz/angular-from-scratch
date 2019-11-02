@@ -13,5 +13,5 @@ ng serve
 Go to your web browser and access localhost:4200/todos
 
 ## Screenshots
-![Main page screenshot](https://raw.githubusercontent.com/ronaldscruz/angular-from-scratch/master/screenshots/ss-home.png)
+![Main page screenshot](https://raw.githubusercontent.com/ronaldscruz/angular-from-scratch/master/screenshots/ss-main.png)
 
